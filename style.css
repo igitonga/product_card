@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap");
 body {
   height: 100vh;
-  background: #bff3e7;
+  background: #f2ebe3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,7 +80,7 @@ body .text-cont .price-cont .oldPrice {
 }
 
 body .text-cont .button {
-  background: #188c70;
+  background: #3c8067;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
