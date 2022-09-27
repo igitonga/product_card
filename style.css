@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Outfit:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap");
 body {
   height: 100vh;
   background: #bff3e7;
@@ -15,7 +16,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body .main-cont {
@@ -40,12 +41,19 @@ body .text-cont {
 }
 
 body .text-cont .title {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+body .text-cont h1 {
+  font-family: 'Fraunces', serif;
 }
 
 body .text-cont .content {
   font-size: 12px;
   line-height: 1.7em;
+  opacity: 0.7;
 }
 
 body .text-cont .price-cont {
@@ -59,14 +67,16 @@ body .text-cont .price-cont {
 
 body .text-cont .price-cont .newPrice {
   font-size: 2em;
-  font-weight: bold;
+  font-weight: 900;
   color: #188c70;
+  font-family: 'Fraunces', serif;
 }
 
 body .text-cont .price-cont .oldPrice {
   font-size: 12px;
   margin-left: 1em;
   text-decoration: line-through;
+  opacity: 0.7;
 }
 
 body .text-cont .button {
@@ -87,5 +97,16 @@ body .text-cont .button {
 body .text-cont .button .material-symbols-outlined {
   margin-right: 10px;
   font-size: medium;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+body .attribution a {
+  color: #3e52a3;
 }
 /*# sourceMappingURL=style.css.map */
